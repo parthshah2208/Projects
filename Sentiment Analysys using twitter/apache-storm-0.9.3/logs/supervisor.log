@@ -1,0 +1,165 @@
+2015-02-18T20:23:17.623-0800 o.a.s.z.ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:host.name=ubuntu
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:java.version=1.6.0_34
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:java.vendor=Sun Microsystems Inc.
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:java.class.path=/home/bodkhe/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/bodkhe/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/bodkhe/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/bodkhe/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/bodkhe/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/bodkhe/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/bodkhe/apache-storm-0.9.3/lib/asm-4.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/bodkhe/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/bodkhe/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/bodkhe/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/jline-2.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/bodkhe/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/bodkhe/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/bodkhe/apache-storm-0.9.3/conf
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:java.library.path=usr/lib/jvm
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:java.io.tmpdir=/tmp
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:os.name=Linux
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:os.arch=amd64
+2015-02-18T20:23:17.627-0800 o.a.s.z.ZooKeeper [INFO] Client environment:os.version=3.13.0-24-generic
+2015-02-18T20:23:17.628-0800 o.a.s.z.ZooKeeper [INFO] Client environment:user.name=root
+2015-02-18T20:23:17.628-0800 o.a.s.z.ZooKeeper [INFO] Client environment:user.home=/root
+2015-02-18T20:23:17.628-0800 o.a.s.z.ZooKeeper [INFO] Client environment:user.dir=/home/bodkhe/apache-storm-0.9.3
+2015-02-18T20:23:17.742-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:host.name=ubuntu
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.version=1.6.0_34
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.vendor=Sun Microsystems Inc.
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.home=/usr/lib/jvm/java-6-openjdk-amd64/jre
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.class.path=/home/bodkhe/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/bodkhe/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/bodkhe/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/bodkhe/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/bodkhe/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/bodkhe/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/bodkhe/apache-storm-0.9.3/lib/asm-4.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/bodkhe/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/bodkhe/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/bodkhe/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/bodkhe/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/bodkhe/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/bodkhe/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/bodkhe/apache-storm-0.9.3/lib/jline-2.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/bodkhe/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/bodkhe/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/bodkhe/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/bodkhe/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/bodkhe/apache-storm-0.9.3/conf
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.library.path=usr/lib/jvm
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.io.tmpdir=/tmp
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.compiler=<NA>
+2015-02-18T20:23:17.743-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.name=Linux
+2015-02-18T20:23:17.744-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.arch=amd64
+2015-02-18T20:23:17.744-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.version=3.13.0-24-generic
+2015-02-18T20:23:17.744-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.name=root
+2015-02-18T20:23:17.744-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.home=/root
+2015-02-18T20:23:17.744-0800 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.dir=/home/bodkhe/apache-storm-0.9.3
+2015-02-18T20:23:20.024-0800 b.s.d.supervisor [INFO] Starting Supervisor with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 5000, "topology.skip.missing.kryo.registrations" false, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 500, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "usr/lib/jvm", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/home/bodkhe/apache-storm-0.9.3/data", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2181, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "distributed", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+2015-02-18T20:23:20.684-0800 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-18T20:23:21.244-0800 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-18T20:23:21.248-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@614aac1
+2015-02-18T20:23:21.320-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T20:23:21.341-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T20:23:21.360-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b90002, negotiated timeout = 20000
+2015-02-18T20:23:21.362-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-18T20:23:21.364-0800 b.s.zookeeper [INFO] Zookeeper state update: :connected:none
+2015-02-18T20:23:22.411-0800 o.a.s.z.ZooKeeper [INFO] Session: 0x14b9c1aa5b90002 closed
+2015-02-18T20:23:22.411-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T20:23:22.444-0800 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-18T20:23:22.445-0800 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-18T20:23:22.445-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T20:23:22.452-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T20:23:22.453-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T20:23:22.459-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b90003, negotiated timeout = 20000
+2015-02-18T20:23:22.459-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-18T20:23:22.628-0800 b.s.d.supervisor [INFO] Starting supervisor with id a11df7f9-0704-444a-a736-adb5762df93b at host ubuntu
+2015-02-18T20:38:49.469-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 16251ms for sessionid 0x14b9c1aa5b90003, closing socket connection and attempting reconnect
+2015-02-18T20:39:06.232-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T20:39:07.986-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T20:39:11.793-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T20:39:12.267-0800 o.a.s.z.ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x14b9c1aa5b90003 has expired, closing socket connection
+2015-02-18T20:39:15.978-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T20:39:15.979-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: LOST
+2015-02-18T20:39:15.979-0800 b.s.cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2015-02-18T20:39:15.979-0800 o.a.s.c.ConnectionState [WARN] Session expired event received
+2015-02-18T20:39:15.979-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T20:39:20.393-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T20:39:20.393-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T20:39:23.461-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b90004, negotiated timeout = 20000
+2015-02-18T20:39:28.388-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T20:39:33.998-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T20:39:37.535-0800 b.s.cluster [WARN] Ephemeral node disappeared between checking for existing and setting data #<RuntimeException java.lang.RuntimeException: org.apache.storm.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /supervisors/a11df7f9-0704-444a-a736-adb5762df93b>
+2015-02-18T20:48:54.475-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 13337ms for sessionid 0x14b9c1aa5b90004, closing socket connection and attempting reconnect
+2015-02-18T20:49:23.808-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T20:49:25.226-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T20:49:26.575-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T20:49:27.357-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T20:49:30.214-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: LOST
+2015-02-18T20:49:30.214-0800 o.a.s.z.ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x14b9c1aa5b90004 has expired, closing socket connection
+2015-02-18T20:49:30.244-0800 b.s.cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2015-02-18T20:49:30.244-0800 o.a.s.c.ConnectionState [WARN] Session expired event received
+2015-02-18T20:49:30.244-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T20:49:36.219-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T20:49:36.219-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T20:49:36.421-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T20:49:44.636-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b90006, negotiated timeout = 20000
+2015-02-18T20:49:44.672-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T20:49:57.215-0800 b.s.cluster [WARN] Ephemeral node disappeared between checking for existing and setting data #<RuntimeException java.lang.RuntimeException: org.apache.storm.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /supervisors/a11df7f9-0704-444a-a736-adb5762df93b>
+2015-02-18T20:51:43.863-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 14774ms for sessionid 0x14b9c1aa5b90006, closing socket connection and attempting reconnect
+2015-02-18T20:51:49.665-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T20:51:49.731-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T20:51:51.489-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T20:51:51.584-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T20:51:51.620-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b90006, negotiated timeout = 20000
+2015-02-18T20:51:51.640-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T21:20:40.132-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 151579ms for sessionid 0x14b9c1aa5b90006, closing socket connection and attempting reconnect
+2015-02-18T21:20:40.907-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T21:20:41.288-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T21:20:41.977-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T21:20:42.031-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T21:20:42.224-0800 o.a.s.z.ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x14b9c1aa5b90006 has expired, closing socket connection
+2015-02-18T21:20:42.225-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: LOST
+2015-02-18T21:20:42.226-0800 b.s.cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2015-02-18T21:20:42.242-0800 o.a.s.c.ConnectionState [WARN] Session expired event received
+2015-02-18T21:20:42.243-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T21:20:42.877-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T21:20:42.916-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T21:20:42.917-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T21:20:43.151-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b90009, negotiated timeout = 20000
+2015-02-18T21:20:43.152-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T21:44:14.714-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 19067ms for sessionid 0x14b9c1aa5b90009, closing socket connection and attempting reconnect
+2015-02-18T21:44:15.328-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T21:44:15.329-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T21:44:16.430-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T21:44:16.524-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T21:44:16.529-0800 o.a.s.z.ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x14b9c1aa5b90009 has expired, closing socket connection
+2015-02-18T21:44:16.531-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: LOST
+2015-02-18T21:44:16.533-0800 b.s.cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2015-02-18T21:44:16.533-0800 o.a.s.c.ConnectionState [WARN] Session expired event received
+2015-02-18T21:44:16.533-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T21:44:16.728-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T21:44:16.748-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T21:44:16.748-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T21:44:16.839-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b9000b, negotiated timeout = 20000
+2015-02-18T21:44:16.839-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T21:44:16.922-0800 b.s.cluster [WARN] Ephemeral node disappeared between checking for existing and setting data #<RuntimeException java.lang.RuntimeException: org.apache.storm.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /supervisors/a11df7f9-0704-444a-a736-adb5762df93b>
+2015-02-18T22:31:29.311-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 2811931ms for sessionid 0x14b9c1aa5b9000b, closing socket connection and attempting reconnect
+2015-02-18T22:31:29.459-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T22:31:29.460-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T22:31:31.385-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T22:31:31.385-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T22:31:31.387-0800 o.a.s.z.ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x14b9c1aa5b9000b has expired, closing socket connection
+2015-02-18T22:31:31.387-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: LOST
+2015-02-18T22:31:31.387-0800 b.s.cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2015-02-18T22:31:31.387-0800 o.a.s.c.ConnectionState [WARN] Session expired event received
+2015-02-18T22:31:31.387-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T22:31:31.388-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T22:31:31.389-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T22:31:31.389-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T22:31:31.614-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b9000d, negotiated timeout = 20000
+2015-02-18T22:31:31.614-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T22:48:02.739-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 13340ms for sessionid 0x14b9c1aa5b9000d, closing socket connection and attempting reconnect
+2015-02-18T22:48:26.693-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T22:48:28.195-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T22:48:28.634-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T22:48:28.835-0800 o.a.s.z.ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x14b9c1aa5b9000d has expired, closing socket connection
+2015-02-18T22:48:29.226-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T22:48:29.226-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: LOST
+2015-02-18T22:48:43.682-0800 b.s.cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2015-02-18T22:48:43.682-0800 o.a.s.c.ConnectionState [WARN] Session expired event received
+2015-02-18T22:48:43.713-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T22:48:49.068-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T22:48:49.068-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T22:48:49.098-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T22:48:51.689-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b9000f, negotiated timeout = 20000
+2015-02-18T22:48:51.702-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T22:49:07.373-0800 o.a.s.z.ClientCnxn [INFO] Client session timed out, have not heard from server in 14103ms for sessionid 0x14b9c1aa5b9000f, closing socket connection and attempting reconnect
+2015-02-18T22:49:51.791-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T22:49:51.791-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: SUSPENDED
+2015-02-18T22:50:00.476-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T22:50:03.646-0800 o.a.s.z.ClientCnxn [INFO] Unable to reconnect to ZooKeeper service, session 0x14b9c1aa5b9000f has expired, closing socket connection
+2015-02-18T22:50:03.646-0800 b.s.cluster [WARN] Received event :disconnected::none: with disconnected Zookeeper.
+2015-02-18T22:50:03.647-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: LOST
+2015-02-18T22:50:04.863-0800 b.s.cluster [WARN] Received event :expired::none: with disconnected Zookeeper.
+2015-02-18T22:50:06.810-0800 o.a.s.c.ConnectionState [WARN] Session expired event received
+2015-02-18T22:50:06.810-0800 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@39bda9b9
+2015-02-18T22:50:21.281-0800 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-18T22:50:21.666-0800 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-18T22:50:21.722-0800 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-18T22:50:22.508-0800 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b9c1aa5b90011, negotiated timeout = 20000
+2015-02-18T22:50:22.508-0800 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: RECONNECTED
+2015-02-18T22:50:24.024-0800 b.s.cluster [WARN] Ephemeral node disappeared between checking for existing and setting data #<RuntimeException java.lang.RuntimeException: org.apache.storm.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /supervisors/a11df7f9-0704-444a-a736-adb5762df93b>

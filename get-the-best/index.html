@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>get the best</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/get-the-best.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header text-center">
+      <h1>get the best</h1>
+      <h3>the best, the best, the best of tunes</h3>
+      <hr>
+      <input type="text" class="form-control artist-search" placeholder="artist name ...">
+      <select class="form-control country-select">
+  <option value="US">United States</option>
+  <option value="IN">India</option>
+  <option value="ES">Spain</option>
+  <option value="MX">Mexico</option>
+  <option value="RU">Russia</option>
+
+</select>
+
+    </div>
+    <div class="top-tracks">
+    </div>
+  </div>
+
+  <script class="track-template" type="template">
+    <div>
+      <h3 class="title"><%= title %></h3>
+      <a href="<%= artistUrl %>"><%= artist %></a> - <a href="<%= albumUrl %>"><%= album %></a>
+      <span url="<%= songUrl %>" class="glyphicon glyphicon-play-circle play"></span>
+    </div>
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="js/get-the-best.js"></script>
+</body>
+</html>

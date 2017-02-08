@@ -1,0 +1,7 @@
+2015-02-18T20:23:46.881-0800 o.m.log [INFO] Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+2015-02-18T20:23:46.887-0800 o.m.log [INFO] jetty-6.1.26
+2015-02-18T20:23:46.938-0800 o.m.log [INFO] Started SocketConnector@0.0.0.0:8080
+2015-02-18T20:24:29.060-0800 b.s.thrift [INFO] Connecting to Nimbus at localhost:6627
+2015-02-18T20:24:29.075-0800 b.s.thrift [INFO] Connecting to Nimbus at localhost:6627
+2015-02-18T20:24:29.075-0800 b.s.thrift [INFO] Connecting to Nimbus at localhost:6627
+2015-02-18T20:24:29.073-0800 b.s.thrift [INFO] Connecting to Nimbus at localhost:6627

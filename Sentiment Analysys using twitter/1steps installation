@@ -1,0 +1,131 @@
+$ sudo apt-get update
+
+$ sudo apt-get install openjdk-6-jdk
+
+$ wget http://apache.spinellicreations.com/zookeeper/stable/zookeeper-3.4.6.tar.gz
+
+$ tar -xvf zookeeper-3.4.6.tar.gz
+
+$ cd zookeeper-3.4.6/
+
+Create the data folder and update the conf/zoo.cfg to point to the data folder. By default it is set to /tmp folder which will be cleansed with every boot. Rest of the default settings are good enough.
+
+dataDir=/home/bodkhe/zookeeper-3.4.6/data
+
+$ sudo bin/zkServer.sh start
+
+-------------------INSTALL TOOLS NEEDED:------------------------
+
+$ sudo apt-get install git -y
+
+$ sudo apt-get install automake -y
+
+$ sudo apt-get install uuid-dev
+
+$ sudo apt-get install g++ -y
+
+$ sudo apt-get install gcc-multilib -y
+
+-----------------------------ZEROMQ-----------------
+
+$ wget http://download.zeromq.org/zeromq-2.1.7.tar.gz
+
+tar -xzf zeromq-2.1.7.tar.gz
+
+cd zeromq-2.1.7
+
+./configure
+
+make
+
+sudo make install
+
+sudo apt-get install libtool git (before JZMQ)
+
+-----------------------------JZMQ------------------------
+
+Create a JAVA_HOME variable that point the the jdk you just installed. Should be in the /usr/lib/jvm directory
+
+JAVA_HOME=/usr/lib/jvm/(your jdk folder); 
+
+export JAVA_HOME
+
+git clone https://github.com/nathanmarz/jzmq.git 
+
+cd jzmq/src
+
+touch classnoinst.stamp
+
+CLASSPATH=.:./.:$CLASSPATH javac -d . org/zeromq/ZMQ.java org/zeromq/ZMQException.java org/zeromq/ZMQQueue.java org/zeromq/ZMQForwarder.java org/zeromq/ZMQStreamer.java
+
+cd ..
+
+./autogen.sh
+
+./configure
+
+make 
+
+sudo make install
+
+--------------------------------INSTALL STORM--------------------------
+
+$ wget http://mirror.symnds.com/software/Apache/storm/apache-storm-0.9.3/apache-storm-0.9.3.tar.gz
+
+Extract 
+
+Create a folder called 'data' in apache storm folder
+
+EDIT THE STORM.YAML FILE 
+
+storm.zookeeper.servers:
+- "localhost"
+storm.zookeeper.port: 2181
+nimbus.host: "localhost"
+nimbus.thrift.port: 6627
+ui.port: 8080
+storm.local.dir: "/home/slave7/apache-storm-0.9.3/data"
+java.library.path: "usr/lib/jvm"
+supervisor.slots.ports:
+- 6700
+- 6701
+- 6702
+- 6703
+
+
+Also copy this modified ‘storm.yaml’ file to “~/.storm/storm.yaml” folder. This is very important so do not forget to create ‘.storm’ folder in user root folder and copy the modified ‘storm.yaml’ file from ‘conf’ folder to created ‘.storm’ folder.
+
+------------------To run the storm cluster------------------------- 
+
+1. $ cd /home/bodkhe/zookeeper-3.4.6
+
+2. run zookeeper using sudo --> $ sudo bin/zkServer.sh start
+
+3. open a new terminal and $ cd /home/bodkhe/apache-storm-0.9.3
+
+4. run storm using sudo --> $ sudo bin/storm nimbus // use sudo to generate the log file
+
+5. sudo bin/storm supervisor
+
+6. sudo bin/storm ui  
+
+--------------------To download the code -----------------------------------
+
+git clone https://github.com/nathanmarz/storm-starter.git
+
+//Package the code. storm-starter-*.jar would be created after a successful build in the target folder. 
+
+// Run from the location of the pom.xml file in a new tab
+
+mvn -f m2-pom.xml package
+
+//Run this command from inside the apache storm folder -
+
+bin/storm jar /home/storm/apache-storm-0.9.3/storm-starter/target/storm-starter-0.0.1-SNAPSHOT-jar-with-dependencies.jar storm.starter.WordCountTopology WordCount
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+.artist-search, .top-tracks, .country-select{
+  width:70%;
+  margin:0 auto;
+}
+
+@media (max-width: 465px) {
+  .artist-search, .top-tracks{
+    width:80%;
+  }
+ }
+
+.country-select{
+  padding: 10px;
+  text-align: center;
+}
+ .play:hover{
+   color: lightgrey;
+ }
+
+.play:active{
+  color: darkgrey;
+}
